@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roja S - Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <h1 class="logo">Roja S</h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section id="home" class="home">
+    <div class="intro">
+      <h2>Hello, I'm Roja 👋</h2>
+      <p>B.Sc Information Technology Student @ Bharathiyar University</p>
+      <p class="tagline">Passionate IT learner | Exploring programming & technology</p>
+    </div>
+    <img src="images/profile-placeholder.png" alt="Profile Picture" class="profile-pic">
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I recently completed my schooling and have now joined Bharathiyar University to study 
+       <strong>B.Sc Information Technology</strong>. I am building a strong foundation in programming and computer science.</p>
+
+    <h3>Education</h3>
+    <ul>
+      <li>B.Sc Information Technology – Bharathiyar University (Present)</li>
+      <li>Completed Schooling – (Previous Year)</li>
+    </ul>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill">C Programming</div>
+      <div class="skill">C++</div>
+      <div class="skill">Java</div>
+      <div class="skill">HTML</div>
+      <div class="skill">CSS</div>
+      <div class="skill">JavaScript</div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <p>Coming soon! (Student mini-projects and coding exercises will be added here.)</p>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <p>Email: <a href="mailto:EMAIL_PLACEHOLDER">EMAIL_PLACEHOLDER</a></p>
+    <p>LinkedIn: <a href="#">LINKEDIN_URL</a></p>
+    <p>GitHub: <a href="#">GITHUB_URL</a></p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Roja S | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
